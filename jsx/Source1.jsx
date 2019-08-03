@@ -1,0 +1,1 @@
+﻿ doc = app.activeDocument;var lyr = doc.activeLayer;var pos = lyr.bounds;alert (pos);lyr.translate(new UnitValue(200, "px"), new UnitValue(200, "px"));

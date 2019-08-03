@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+        
+<!--<link rel="stylesheet" href="css/topcoat-desktop-dark.min.css"/> -->
+<link  id="hostStyle" rel="stylesheet" href="css/styles.css"/>
+<link href="https://fonts.googleapis.com/cssfamily=Lato:400,700" rel="stylesheet">
+
+<title></title>
+</head>
+
+<body class="hostElt">
+
+    <div id="content">        
+        
+        <div>
+          <br>
+          <div style="display:inline-block;" align="center">
+          <Span class="title" >Duplicate Count</Span><br>
+         <!-- <input width="100px" name="count-2" type="range" id="count" value="10" min="0" max="20" onchange="updateCountInput(this.value);">&nbsp;&nbsp; --><input id="count" name="count-2" class="sliderValue" type="number" id="countInput" value="10">
+          </div>
+          
+          <div style="display:inline-block;" align="center">
+            <Span class="title" >Spacing Value (Px)</Span><br>
+          <!--<input width="100px" name="space-2" type="range" id="space" value="100" min="0" max="1000" onchange="updateSpaceInput(this.value);">&nbsp;&nbsp; --><input id="space" name="space-2" class="sliderValue" type="number" id="spaceInput" value="100">
+          </div>
+          <br><br>
+          <!--<input width="10px" type="range" id="grpState" min="0" max="1" value="1" onchange="updateGrpInput(this.value);"> -->
+          
+          <input type="checkbox" id="grpState" checked>
+          <span class="title" id="text">Group all new Layers created</span>
+          <br><br>
+            <button width="95px" id="btn_Horz" class="actionBtn">Horizontal</button>
+            <button width="95px" id="btn_Vert" class="actionBtn">Vertical</button>
+        </div>   
+        
+    </div>
+    
+    <script src="js/libs/CSInterface.js"></script>
+    <script src="js/libs/jquery-2.0.2.min.js"></script>
+
+    <script src="js/themeManager.js"></script>
+    <script src="js/main.js"></script>
+
+        
+</body>
+</html>
